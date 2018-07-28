@@ -7,6 +7,10 @@ body {
     font-weight: lighter;
 }
 
+h2 {
+    margin: 0;
+}
+
 #wrapper {
     display: grid;
     grid-template-areas: "head" "main";
@@ -51,12 +55,6 @@ header>ul>li {
     margin: 0 2rem;
     font-size: 18px;
     cursor: pointer;
-    font-weight: normal;
-    transition: text-decoration .7s linear;
-}
-
-header>ul>li:hover {
-    border-bottom: solid black 2px;
 }
 
 @media screen and (max-width: 767px) {
@@ -150,7 +148,7 @@ footer {
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        background: #e2e1e0;
+        background: #6b6b6b;
         border-radius: 3px;
         z-index: 1;
         transform-origin: 4px 0px;
@@ -165,7 +163,7 @@ footer {
     #menuToggle input:checked~span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #232323;
+        background: #6b6b6b;
     }
     #menuToggle input:checked~span:nth-last-child(3) {
         opacity: 0;
